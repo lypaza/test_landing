@@ -1,0 +1,251 @@
+body {
+    background-color: grey;
+}
+.conteiner {
+    display: block;
+    position: relative;
+    width: 1400px;
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    background-color: bisque;
+    overflow: hidden;
+}
+.wallpaper_1 {
+    position: absolute;
+    z-index: 1;
+    width: 1400px;
+    height: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: azure;
+    animation-name: none;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0,0,.19,1);
+    animation-fill-mode: forwards;
+}
+@keyframes AAA {
+    0% {
+        margin-left: 0;
+        z-index: 1;
+    }
+    50% {
+        margin-left: -81%;
+        z-index: 1;
+    }
+    100% {
+        margin-left: 0;
+        z-index: 99;
+    }
+}
+@keyframes BBB {
+    0% {
+        margin-left: 0;
+        z-index: 99;
+    }
+    50% {
+        margin-left: -80%;
+        z-index: 6;
+    }
+    51% {
+        margin-left: -81%;
+        z-index: 1;
+    }
+    100% {
+        margin-left: 0;
+        z-index: 1;
+    }
+}
+.wallpaper_2 {
+    position: absolute;
+    z-index: 2;
+    width: 1400px;
+    height: 700px;
+    margin-left: 280px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: azure;
+    animation-name: none;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0,0,.19,1);
+    animation-fill-mode: forwards;
+}
+@keyframes CCC {
+    0% {
+        margin-left: 280px;
+    }
+    50% {
+        margin-left: -61%;
+    }
+    51% {
+        margin-left: -60%;
+        z-index: 2;
+    }
+    100% {
+        margin-left: 0;
+        z-index: 99;
+    }
+}
+@keyframes DDD {
+    0% {
+        margin-left: 0;
+        z-index: 99;
+    }
+    50% {
+        margin-left: -60%;
+        z-index: 2;
+    }
+    51% {
+        margin-left: -61%;
+        z-index: 2;
+    }
+    100% {
+        margin-left: 280px;
+        z-index: 2;
+    }
+}
+.wallpaper_3 {
+    position: absolute;
+    z-index: 3;
+    width: 1400px;
+    height: 700px;
+    margin-left: 560px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: azure;
+    animation-name: none;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0,0,.19,1);
+    animation-fill-mode: forwards;
+}
+@keyframes EEE {
+    0% {
+        margin-left: 560px;
+    }
+    50% {
+        margin-left: -41%;
+    }
+    51% {
+        margin-left: -40%;
+        z-index: 3;
+    }
+    100% {
+        margin-left: 0;
+        z-index: 99;
+    }
+}
+@keyframes FFF {
+    0% {
+        margin-left: 0;
+        z-index: 99;
+    }
+    50% {
+        margin-left: -40%;
+        z-index: 3;
+    }
+    51% {
+        margin-left: -41%;
+        z-index: 3;
+    }
+    100% {
+        margin-left: 560px;
+        z-index: 3;
+    }
+}
+.wallpaper_4 {
+    position: absolute;
+    z-index: 4;
+    width: 1400px;
+    height: 700px;
+    margin-left: 840px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: azure;
+    animation-name: none;
+    animation-duration: 2s;
+    animation-timing-function: cubic-bezier(0,0,.19,1);
+    animation-fill-mode: forwards;
+}
+@keyframes GGG {
+    0% {
+        margin-left: 840px;
+    }
+    50% {
+        margin-left: -21%;
+    }
+    51% {
+        margin-left: -20%;
+        z-index: 4;
+    }
+    100% {
+        margin-left: 0;
+        z-index: 99;
+    }
+}
+@keyframes HHH {
+    0% {
+        margin-left: 0;
+        z-index: 99;
+    }
+    50% {
+        margin-left: -20%;
+        z-index: 4;
+    }
+    51% {
+        margin-left: -21%;
+        z-index: 4;
+    }
+    100% {
+        margin-left: 840px;
+        z-index: 4;
+    }
+}
+.wallpaper_5 {
+    position: absolute;
+    z-index: 5;
+    width: 1400px;
+    height: 700px;
+    margin-left: 1120px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: azure;
+    animation-name: none;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0,0,.19,1);
+    animation-fill-mode: forwards;
+}
+@keyframes III {
+    0% {
+        margin-left: 1120px;
+    }
+    100% {
+        margin-left: 0;
+        z-index: 99;
+    }
+}
+@keyframes JJJ {
+    0% {
+        margin-left: 0;
+        z-index: 99;
+    }
+    100% {
+        margin-left: 1120px;
+        z-index: 5;
+    }
+}
